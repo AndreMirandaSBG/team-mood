@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+web/dist/
+functions/lib/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Firebase
+.firebase/
+.firebaserc.local
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
